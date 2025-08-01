@@ -1,0 +1,60 @@
+.contact-container {
+  padding: 40px;
+  background-color: #fff8f0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-container h1 {
+  font-size: 36px;
+  color: #990066;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.contact-container p {
+  text-align: center;
+  color: #444;
+  margin-bottom: 30px;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+button {
+  background-color: #cc0099;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #990066;
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  text-align: center;
+}

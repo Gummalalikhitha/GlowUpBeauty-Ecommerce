@@ -1,0 +1,46 @@
+.about-container {
+  padding: 40px;
+  background-color: #fff0f6;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-container h1 {
+  font-size: 36px;
+  color: #660066;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-container .intro {
+  font-size: 20px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: grid;
+  gap: 30px;
+}
+
+.section {
+  background-color: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+  color: #cc0099;
+  margin-bottom: 10px;
+}
+
+.section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.section p, .section li {
+  color: #444;
+  font-size: 16px;
+}

@@ -1,0 +1,60 @@
+/* OrderHistory.css */
+
+.container {
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: linear-gradient(to bottom right, #fff0f6, #ffe6f0);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  font-family: 'Poppins', sans-serif;
+}
+
+h3 {
+  text-align: center;
+  color: #d81b60;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.table {
+  width: 100%;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+}
+
+.table th {
+  background-color: #ffd6ea;
+  color: #8e007c;
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.table td {
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.95rem;
+  color: #444;
+  border-top: 1px solid #f8d8e9;
+}
+
+.table td div {
+  margin-bottom: 4px;
+}
+
+p {
+  text-align: center;
+  color: #888;
+  font-size: 1rem;
+}
+.body {
+  background: linear-gradient(to bottom right, #ffe6f0, #fff5fa);
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  font-family: 'Poppins', sans-serif;
+  color:#660066;
+}

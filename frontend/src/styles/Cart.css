@@ -1,0 +1,219 @@
+/* .container {
+  max-width: 1000px;
+  margin: 2rem auto;
+  background-color: #fff5fa;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  color: #d81b60;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+thead {
+  background-color: #ffd6ea;
+}
+
+thead th {
+  padding: 1rem;
+  color: #8e007c;
+  font-size: 1rem;
+  text-align: left;
+}
+
+tbody td {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+}
+
+td button {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-warning {
+  background-color: #f39c12;
+}
+
+.btn-success {
+  background-color: #27ae60;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+}
+
+.btn-danger:hover,
+.btn-success:hover,
+.btn-warning:hover {
+  opacity: 0.85;
+}
+
+h4 {
+  text-align: right;
+  color: #333;
+  margin-top: 1rem;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+form h5 {
+  color: #8e007c;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+textarea.form-control {
+  resize: vertical;
+  min-height: 80px;
+}
+
+button.btn-primary {
+  background-color: #d81b60;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #ad1457;
+}
+.cart-page-wrapper {
+  background-color: #ffe4f0; 
+  min-height: 100vh;
+  padding-bottom: 2rem;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background-color:#fff0f6;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  font-family: 'Poppins', sans-serif;
+}
+
+table.table td {
+  vertical-align: middle;
+  padding: 12px 10px;
+}
+
+.btn-danger.btn-sm {
+  padding: 6px 12px;
+  font-size: 14px;
+  white-space: nowrap;
+  border-radius: 6px;
+  display: inline-block;
+} */
+/* Cart Page Styles */
+
+/* Full-page wrapper with soft pink background */
+.cart-page-wrapper {
+  background: linear-gradient(to bottom right, #ffe6f0, #fff5fa);
+  min-height: 100vh;
+  padding: 3rem 1rem;
+  font-family: 'Poppins', sans-serif;
+  color:#660066;
+}
+button.btn-primary {
+  background-color: #d81b60;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  display: block;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover {
+  background-color: #ad1457;
+}
+/* Table header */
+.table thead th {
+  background-color: #f9acd1;
+  color: #8e007c;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 2px solid #f3c8db;
+}
+
+/* Table body cells */
+.table tbody td {
+  padding: 1rem;
+  text-align: center;
+  font-size: 15px;
+  border-bottom: 1px solid #fce4ec;
+  color: #444;
+}
+/* Input fields */
+.form-control {
+  padding: 0.75rem;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #d81b60;
+  box-shadow: 0 0 0 3px rgba(216, 27, 96, 0.2);
+  outline: none;
+}
+h4 {
+  text-align: center;
+  color: #4a148c;
+  font-weight: 600;
+}
+/* Cart title */
+h2 {
+  text-align: center;
+  color: #d81b60;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
