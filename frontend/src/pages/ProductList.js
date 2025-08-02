@@ -141,7 +141,7 @@ const ProductList = () => {
     }
 
     try {
-      const res = await axios.get(`http://localhost:5000/api/auth/${user.email}`);
+      const res = await axios.get(`http://51.21.10.233:5000/api/auth/${user.email}`);
       if (res.status === 200 && res.data.loginStatus) {
         navigate("/cart");
       } else {
