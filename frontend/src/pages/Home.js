@@ -331,8 +331,8 @@ const HomePage = () => {
       </div>
 
       <div className="footer-bottom">
-        {/* Created by <b>Gummala Likhitha</b> | All Rights Reserved */}
-                E-commerce Cosmetics Shopping <b>GlowUpBeauty</b> | All Rights Reserved
+       <b>GlowUpBeauty</b> Created by <b>Gummala Likhitha</b> | All Rights Reserved
+                {/* E-commerce Cosmetics Shopping <b>GlowUpBeauty</b> | All Rights Reserved */}
       </div>
     </div>
   );
