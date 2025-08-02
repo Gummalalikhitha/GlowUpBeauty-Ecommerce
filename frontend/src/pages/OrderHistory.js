@@ -9,7 +9,7 @@ const OrderHistory = () => {
     const user = JSON.parse(localStorage.getItem("user"));
     if (!user?.email) return;
 
-    fetch(`http://localhost:5000/api/orders/${user.email}`)
+    fetch(`http://51.21.10.233:5000/api/orders/${user.email}`)
       .then((res) => res.json())
       .then((data) => setOrders(data))
       .catch((err) => console.error("Fetch error:", err));
