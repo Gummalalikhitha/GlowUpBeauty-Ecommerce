@@ -16,7 +16,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/api/login", {
+      const res = await axios.post("http://51.21.10.233:5000/api/login", {
       email, // 👈 backend expects "username", mapped from "email"
         password,
       });
